@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: url("../images/background.jpg");
+}
+
+.foto {
+    margin: 30px 10px 0 50px;
+    width: 200px;
+}
+
+.photo {
+    text-align: center;
+    width: 25%;
+    margin: 0 20px 0 20px;
+    border: 1px solid #556573;
+    padding: 10px;
+}
+
+.footer-one {
+    margin-top: 40px;
+    height: 100px;
+    background-color: #8C7B74;
+}
+
+.footer-two {
+    margin-top: 40px;
+    height: 100px;
+    background-color: #D9C4B8;
+}
+
+.hobby {
+    width: 25%;
+    text-align: center;
+    font-size: 16px;
+    color: #556573;
+    margin: 0 20px 0 10px;
+    border: 1px solid #556573;
+    padding: 10px;
+}
+
+.hobbies {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.right {
+    width: 25%;
+    text-align: center;
+    margin: 0 20px 0 10px;
+    border: 1px solid #556573;
+    padding: 10px;
+}
+
+.center {
+    width: 25%;
+    text-align: center;
+    margin: 0 20px 0 10px;
+    border: 1px solid #556573;
+    padding: 10px;
+}
+
+.left{
+    width: 25%;
+    margin: 0 20px 0 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #556573;
+}
+
+.icon {
+    margin: 20px 0 0 30px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+h4 {
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+    color: #556573;
+}
+
+h3 {
+    padding: 30px 0 0 30px;
+    font-size: 24px;
+    color: #556573;
+}
+
+h2 {
+    font-size: 18px;
+    color: #556573;;
+}
+
+p.duration {
+    font-size: 16px;
+    color: #2F3840;
+}
+
+.contatos div {
+    display: inline-block;
+}
+
+.phone {
+    font-size: 16px;
+    color: #556573;
+}
+
+.email {
+    font-size: 16px;
+    color: #556573;
+}
+
+.skill {
+    padding: 20px 0 0 30px;
+    font-size: 16px;
+    color: #556573;
+}
+
+.instituicao {
+    color: #2F3840;
+}
+
+.language {
+    padding: 20px 0 0 30px;
+    font-size: 16px;
+    color: #556573;
+}
+
+article {
+    padding: 20px 0 0 30px;
+}
+
+.title {
+    padding-top: 20px;
+}
