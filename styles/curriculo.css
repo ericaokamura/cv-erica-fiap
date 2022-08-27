@@ -22,7 +22,7 @@
     width: 25%;
     margin: 0 20px 0 20px;
     border: 1px solid #556573;
-    padding: 10px;
+    padding: 10px 30px 10px 0;
 }
 
 .footer-one {
@@ -60,7 +60,7 @@
     text-align: center;
     margin: 0 20px 0 10px;
     border: 1px solid #556573;
-    padding: 10px;
+    padding: 10px 30px 10px 10px;
 }
 
 .center {
@@ -68,13 +68,13 @@
     text-align: center;
     margin: 0 20px 0 10px;
     border: 1px solid #556573;
-    padding: 10px;
+    padding: 10px 30px 10px 10px;
 }
 
-.left{
+.left {
     width: 25%;
     margin: 0 20px 0 10px;
-    padding: 10px;
+    padding: 10px 30px 10px 10px;
     text-align: center;
     border: 1px solid #556573;
 }
