@@ -137,18 +137,46 @@ p.duration {
     color: #556573;
 }
 
-.skill {
-    padding: 20px 0 0 30px;
+.skills {
+    padding: 20px 0 0 20px;
     font-size: 16px;
     color: #556573;
 }
+
+.skill {
+    text-align: left;
+    display: inline-flex;
+    margin: 5px;
+}
+
+.skill-vazio {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    background-color:#BBBBBB;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.skill-cheio {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #556573;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+
 
 .instituicao {
     color: #2F3840;
 }
 
 .language {
-    padding: 20px 0 0 30px;
+    text-align: left;
+    display: inline-flex;
+    padding: 20px 0 0 20px;
     font-size: 16px;
     color: #556573;
 }
