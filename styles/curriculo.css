@@ -160,7 +160,7 @@ article {
 .title {
     padding-top: 20px;
     background-color: #D9B4A7;
-    width: 100%;
+    width: 100vw;
 }
 
 .createdby {
@@ -168,7 +168,7 @@ article {
     color: #556573;
     background-color: #D9B4A7;
     height: 100px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     font-style: bold;
 }
@@ -176,5 +176,5 @@ article {
 .faixa {
     background-color: #2F3840;
     height: 50px;
-    width: 100%;
+    width: 100vw;
 }
