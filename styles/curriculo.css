@@ -95,7 +95,7 @@ body {
 }
 
 .icon {
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 20px;
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -108,7 +108,7 @@ h4 {
 }
 
 h3 {
-    padding: 30px 0 0 30px;
+    padding: 20px 0 10px 20px;
     font-size: 24px;
     color: #556573;
 }
@@ -138,7 +138,7 @@ p.duration {
 }
 
 .skills {
-    padding: 20px 0 0 20px;
+    padding: 10px 0 10px 20px;
     font-size: 16px;
     color: #556573;
 }
@@ -205,4 +205,39 @@ article {
     background-color: #2F3840;
     height: 50px;
     width: 100vw;
+}
+
+.education {
+    margin-left: 20px;
+    border-left: 1px solid #2F3840;
+}
+
+.experiences {
+    margin-left: 20px;
+    border-left: 1px solid #2F3840;
+}
+
+.triangle {
+    position: absolute;
+    width: 10px;
+	height: 10px;
+	border: 10px solid #D9B4A7;
+    border-radius: 50%;
+}
+
+article {
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+
+.card {
+    display: flex;
+    margin-left: -10px;
+    padding: 10px 0 10px 0;
+}
+
+.paixoes {
+    margin: 10px;
+    width: 50px;
+    height: 50px;;
 }
