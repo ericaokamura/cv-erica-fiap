@@ -159,6 +159,7 @@ article {
 .title {
     padding-top: 20px;
     background-color: #D9B4A7;
+    width: 100%;
 }
 
 .createdby {
@@ -166,6 +167,13 @@ article {
     color: #556573;
     background-color: #D9B4A7;
     height: 100px;
+    width: 100%;
     text-align: center;
     font-style: bold;
+}
+
+.faixa {
+    background-color: #2F3840;
+    height: 50px;
+    width: 100%;
 }
