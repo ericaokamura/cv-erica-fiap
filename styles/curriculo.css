@@ -151,8 +151,8 @@ p.duration {
 
 .skill-vazio {
     margin-left: 10px;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background-color:#BBBBBB;
     border-radius: 50%;
     display: inline-block;
@@ -160,8 +160,8 @@ p.duration {
 
 .skill-cheio {
     margin-left: 10px;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background-color: #556573;
     border-radius: 50%;
     display: inline-block;
@@ -191,6 +191,16 @@ article {
     width: 100vw;
 }
 
+.footer {
+    display: inline-flex;
+}
+
+.footer img {
+    margin: -30px 0 0 0;
+    width: 100px;
+    height: 100px;
+}
+
 .createdby {
     font-size: 16px;
     color: #556573;
@@ -217,7 +227,7 @@ article {
     border-left: 1px solid #2F3840;
 }
 
-.triangle {
+.dot {
     position: absolute;
     width: 10px;
 	height: 10px;
