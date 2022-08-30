@@ -25,7 +25,7 @@ body {
 
 .photo {
     text-align: center;
-    width: 20vw;
+    width: 100%;
     margin: 0 20px 0 20px;
     border: 1px solid #556573;
     padding: 10px 30px 10px 0;
@@ -47,7 +47,7 @@ body {
 }
 
 .hobby {
-    width: 20vw;
+    width: 100%;
     text-align: center;
     font-size: 16px;
     color: #556573;
@@ -63,12 +63,13 @@ body {
 
 .container {
     display: flex;
+    justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .right {
-    width: 20vw;
+    width: 100%;
     text-align: center;
     margin: 0 20px 0 10px;
     border: 1px solid #556573;
@@ -77,7 +78,7 @@ body {
 }
 
 .center {
-    width: 20vw;
+    width: 100%;
     text-align: center;
     margin: 0 20px 0 10px;
     border: 1px solid #556573;
@@ -86,7 +87,7 @@ body {
 }
 
 .left {
-    width: 20vw;
+    width: 100%;
     margin: 0 20px 0 10px;
     padding: 10px 30px 10px 10px;
     border: 1px solid #556573;
@@ -140,7 +141,7 @@ p.duration {
 .skills {
     padding: 10px 0 10px 10px;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
     color: #556573;
 }
 
@@ -152,8 +153,8 @@ p.duration {
 
 .skill-vazio {
     margin-left: 10px;
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     background-color:#BBBBBB;
     border-radius: 50%;
     display: inline-block;
@@ -161,12 +162,12 @@ p.duration {
 
 .skill-cheio {
     margin-left: 10px;
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     background-color: #556573;
     border-radius: 50%;
     display: inline-block;
-  }
+}
   
 
 
@@ -175,11 +176,15 @@ p.duration {
 }
 
 .language {
-    text-align: left;
+    text-align: center;
     display: inline-flex;
     padding: 20px 0 0 10px;
     font-size: 16px;
     color: #556573;
+}
+
+.languages {
+    text-align: center;
 }
 
 article {
@@ -241,9 +246,8 @@ article {
     border-radius: 50%;
 }
 
-article {
-    margin: 0;
-    padding: 0 0 0 40px;
+.card-text {
+    padding: 0 0px 0 30px;
 }
 
 .card {
@@ -256,4 +260,24 @@ article {
     margin: 10px;
     width: 50px;
     height: 50px;;
+}
+
+@media(max-width: 1280px) {
+    .skill-vazio {
+        height: 15px;
+        width: 15px;
+    }
+    
+    .skill-cheio {
+        height: 15px;
+        width: 15px;
+    }
+
+    .skills {
+        text-align: left;
+    }
+
+    .languages {
+        text-align: left;
+    }
 }
